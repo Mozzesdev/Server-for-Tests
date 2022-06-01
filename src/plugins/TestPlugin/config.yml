@@ -1,0 +1,16 @@
+Config:
+  welcome-message: true
+  spawn-requeriment-item:
+    is-required: true
+    material: DIAMOND
+    name: ''
+    amount: 1
+    lore: []
+    enchantments: []
+  Spawn:
+    x: 0.44332255526411074
+    y: 67.0
+    z: 0.25917124073177805
+    yaw: -2.278877
+    pitch: -5.1924386
+    world: void

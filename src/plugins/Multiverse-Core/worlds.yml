@@ -9,7 +9,7 @@ worlds:
     scale: '1.0'
     respawnWorld: ''
     allowWeather: 'true'
-    difficulty: EASY
+    difficulty: PEACEFUL
     spawning:
       ==: MVSpawnSettings
       animals:
@@ -33,11 +33,11 @@ worlds:
     keepSpawnInMemory: 'true'
     spawnLocation:
       ==: MVSpawnLocation
-      x: 0.5157521273861397
+      x: 0.510336779598828
       y: 67.0
-      z: 0.644857521108511
-      pitch: 23.720282
-      yaw: -43.34082
+      z: 0.48010987519316034
+      pitch: 0.9385753
+      yaw: -0.3227073
     autoLoad: 'true'
     bedRespawn: 'true'
     worldBlacklist: []
