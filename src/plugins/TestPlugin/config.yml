@@ -8,9 +8,9 @@ Config:
     lore: []
     enchantments: []
   Spawn:
-    x: 0.44332255526411074
-    y: 67.0
-    z: 0.25917124073177805
-    yaw: -2.278877
-    pitch: -5.1924386
+    x: 84.0
+    y: 27.0
+    z: -42.0
+    yaw: 1.1
+    pitch: -20.8
     world: void
