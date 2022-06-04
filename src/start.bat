@@ -1,1 +1,1 @@
-java -Xms2G -Xmx2G -jar paper.jar run
+java -Xms512M -Xmx512M -jar paper.jar run nogui
