@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1654327247516
+  login: 1654327137390
+money: '93417234.0'
+logoutlocation:
+  world: 1a98a079-e2af-42d2-8a15-600b49a85f09
+  world-name: void
+  x: 0.42617015177149703
+  y: 67.0
+  z: -1.07380621851032
+  yaw: 68.1885986328125
+  pitch: 38.95133590698242
+last-account-name: WinFlix

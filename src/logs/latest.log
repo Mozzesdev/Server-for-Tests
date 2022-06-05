@@ -1,127 +1,219 @@
-[15:24:30] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[15:24:42] [Worker-Main-1/INFO]: Loaded 7 recipes
-[15:24:49] [Server thread/INFO]: Starting minecraft server version 1.18.2
-[15:24:49] [Server thread/INFO]: Loading properties
-[15:24:49] [Server thread/INFO]: This server is running Paper version git-Paper-352 (MC: 1.18.2) (Implementing API version 1.18.2-R0.1-SNAPSHOT) (Git: af3b377)
-[15:24:50] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[15:24:50] [Server thread/INFO]: Using 4 threads for Netty based IO
-[15:24:50] [Server thread/INFO]: Default game type: SURVIVAL
-[15:24:50] [Server thread/INFO]: Generating keypair
-[15:24:51] [Server thread/INFO]: Starting Minecraft server on *:25565
-[15:24:51] [Server thread/INFO]: Using default channel type
-[15:24:51] [Server thread/INFO]: Paper: Using Java 11 compression from Velocity.
-[15:24:51] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[15:24:53] [Server thread/INFO]: [PluginManager] Loading PluginManager v2.7.1
-[15:24:53] [Server thread/INFO]: [VoidGen] Loading VoidGen v2.2.1
-[15:24:53] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.10+1742f98
-[15:24:56] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@29733ddb]
-[15:24:56] [Server thread/INFO]: [TestPlugin] Loading TestPlugin v1.0.0
-[15:24:56] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.1
-[15:24:56] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.3.1-b861
-[15:24:56] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[15:24:56] [Server thread/INFO]: [VoidGen] Enabling VoidGen v2.2.1
-[15:24:56] [Server thread/INFO]: [VoidGen] Using VoidChunkGen: VERSION_UNKNOWN
-[15:24:56] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.10+1742f98
-[15:24:56] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[15:24:57] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[15:24:57] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_18_R2.PaperweightAdapter as the Bukkit adapter
-[15:25:04] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[15:25:04] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[15:25:04] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[15:25:04] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[15:25:04] [Server thread/INFO]: Preparing level "void"
-[15:25:04] [Server thread/INFO]: [VoidGen] Generator settings have not been set. Using default values:
-[15:25:04] [Server thread/INFO]: [VoidGen] {"caves":false,"decoration":false,"mobs":false,"structures":false,"noise":false,"surface":false,"bedrock":false}
-[15:25:07] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[15:25:08] [Server thread/INFO]: Time elapsed: 1058 ms
-[15:25:08] [Server thread/INFO]: [PluginManager] Enabling PluginManager v2.7.1
-[15:25:08] [Server thread/INFO]: [TestPlugin] Enabling TestPlugin v1.0.0
-[15:25:08] [Server thread/INFO]: <------------------------------------->
-[15:25:08] [Server thread/INFO]: [TestPlugin] Has loaded successful in the server - v1.0.0
-[15:25:08] [Server thread/INFO]: [TestPlugin] This plugin is only for testing code on the server!
-[15:25:08] [Server thread/INFO]: <------------------------------------->
-[15:25:08] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.1
-[15:25:12] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[15:25:12] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
-[15:25:12] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
-[15:25:12] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
-[15:25:12] [Server thread/INFO]: [VoidGen] Generator settings "{mobs:" syntax is not valid. Using default values:
-[15:25:12] [Server thread/INFO]: [VoidGen] {"caves":false,"decoration":false,"mobs":false,"structures":false,"noise":false,"surface":false,"bedrock":false}
-[15:25:13] [Server thread/INFO]: [Multiverse-Core] 1 - World(s) loaded.
-[15:25:13] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
-[15:25:13] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
-[15:25:14] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[15:25:14] [Server thread/INFO]: Running delayed init tasks
-[15:25:14] [Server thread/INFO]: Done (24.808s)! For help, type "help"
-[15:25:14] [Server thread/INFO]: Timings Reset
-[15:25:14] [Server thread/INFO]: 0 placeholder hook(s) registered!
-[15:26:00] [User Authenticator #1/INFO]: UUID of player WinFlix is 9a143fb1-f2a9-33fb-b588-ae4ace4f92c7
-[15:26:00] [Craft Scheduler Thread - 3 - PluginManager/INFO]: PM | You are using the latest version of PluginManager.
-[15:26:05] [Server thread/INFO]: WinFlix joined the game
-[15:26:06] [Server thread/INFO]: WinFlix[/127.0.0.1:56369] logged in with entity id 1 at ([void]1.5061224240533921, 67.0, -1.756397632829496)
-[15:26:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7336ms or 146 ticks behind
-[15:26:30] [Server thread/INFO]: WinFlix lost connection: Timed out
-[15:26:31] [Server thread/INFO]: WinFlix left the game
-[15:28:00] [User Authenticator #2/INFO]: UUID of player WinFlix is 9a143fb1-f2a9-33fb-b588-ae4ace4f92c7
-[15:28:01] [Server thread/INFO]: WinFlix joined the game
-[15:28:01] [Server thread/INFO]: WinFlix[/127.0.0.1:56416] logged in with entity id 2 at ([void]1.5061224240533921, 67.0, -1.756397632829496)
-[15:28:39] [Server thread/INFO]: WinFlix issued server command: /test-plugin spawn
-[15:29:13] [Server thread/INFO]: WinFlix issued server command: /test-plugin setspawn
-[15:29:15] [Server thread/INFO]: WinFlix issued server command: /test-plugin spawn
-[15:29:48] [Server thread/INFO]: WinFlix issued server command: /test-plugin reload
-[15:29:52] [Server thread/INFO]: WinFlix issued server command: /test-plugin spawn
-[15:30:09] [Server thread/INFO]: WinFlix issued server command: /enchant WinFlix minecraft:fire_aspect 1
-[15:30:09] [Server thread/INFO]: [WinFlix: Applied enchantment Fire Aspect I to WinFlix's item]
-[15:30:11] [Server thread/INFO]: WinFlix issued server command: /test-plugin spawn
-[15:30:54] [Server thread/INFO]: WinFlix issued server command: /gamemode creative
-[15:30:54] [Server thread/INFO]: [WinFlix: Set own game mode to Creative Mode]
-[15:32:35] [Server thread/INFO]: WinFlix issued server command: /test-plugin reload
-[15:32:36] [Server thread/INFO]: WinFlix issued server command: /test-plugin spawn
-[15:33:02] [Server thread/INFO]: WinFlix issued server command: /test-plugin reload
-[15:33:03] [Server thread/INFO]: WinFlix issued server command: /test-plugin spawn
-[15:33:45] [Server thread/INFO]: WinFlix issued server command: /test-plugin reload
-[15:33:46] [Server thread/INFO]: WinFlix issued server command: /test-plugin spawn
-[15:34:24] [Server thread/INFO]: WinFlix issued server command: /test-plugin reload
-[15:34:25] [Server thread/INFO]: WinFlix issued server command: /test-plugin spawn
-[15:35:22] [Async Chat Thread - #0/INFO]: <WinFlix> &ba
-[15:36:55] [Server thread/INFO]: WinFlix issued server command: /test-plugin reload
-[15:37:08] [Server thread/INFO]: WinFlix issued server command: /enchant WinFlix minecraft:protection 3
-[15:37:08] [Server thread/INFO]: [WinFlix: Applied enchantment Protection III to WinFlix's item]
-[15:37:12] [Server thread/INFO]: WinFlix issued server command: /test-plugin spawn
-[15:37:45] [Server thread/INFO]: WinFlix issued server command: /test-plugin spawn
-[15:37:46] [Server thread/INFO]: WinFlix issued server command: /enchant WinFlix minecraft:protection 3
-[15:37:46] [Server thread/INFO]: [WinFlix: Applied enchantment Protection III to WinFlix's item]
-[15:37:48] [Server thread/INFO]: WinFlix issued server command: /test-plugin spawn
-[15:37:53] [Server thread/INFO]: WinFlix issued server command: /test-plugin reload
-[15:37:54] [Server thread/INFO]: WinFlix issued server command: /test-plugin spawn
-[15:38:00] [Server thread/INFO]: WinFlix issued server command: /enchant WinFlix minecraft:protection 4
-[15:38:04] [Server thread/INFO]: WinFlix issued server command: /enchant WinFlix minecraft:protection 4
-[15:38:12] [Server thread/INFO]: WinFlix issued server command: /enchant WinFlix minecraft:protection 4
-[15:38:12] [Server thread/INFO]: [WinFlix: Applied enchantment Protection IV to WinFlix's item]
-[15:38:13] [Server thread/INFO]: WinFlix issued server command: /enchant WinFlix minecraft:protection 4
-[15:38:13] [Server thread/INFO]: [WinFlix: Applied enchantment Protection IV to WinFlix's item]
-[15:38:15] [Server thread/INFO]: WinFlix issued server command: /test-plugin spawn
-[15:38:26] [Server thread/INFO]: WinFlix issued server command: /test-plugin spawn
-[15:39:26] [Server thread/INFO]: WinFlix issued server command: /test-plugin reload
-[15:39:29] [Server thread/INFO]: WinFlix issued server command: /test-plugin spawn
-[15:39:38] [Server thread/INFO]: WinFlix issued server command: /test-plugin spawn
-[15:40:32] [Server thread/INFO]: Stopping the server
-[15:40:32] [Server thread/INFO]: Stopping server
-[15:40:32] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.1-b861
-[15:40:32] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.1
-[15:40:32] [Server thread/INFO]: [TestPlugin] Disabling TestPlugin v1.0.0
-[15:40:32] [Server thread/INFO]: [TestPlugin] has disabled v1.0.0
-[15:40:32] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.10+1742f98
-[15:40:32] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[15:40:32] [Server thread/INFO]: [VoidGen] Disabling VoidGen v2.2.1
-[15:40:32] [Server thread/INFO]: [PluginManager] Disabling PluginManager v2.7.1
-[15:40:32] [Server thread/INFO]: Saving players
-[15:40:32] [Server thread/INFO]: WinFlix lost connection: Server closed
-[15:40:32] [Server thread/INFO]: WinFlix left the game
-[15:40:32] [Server thread/INFO]: Saving worlds
-[15:40:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[void]'/minecraft:overworld
-[15:40:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (void): All chunks are saved
-[15:40:53] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[15:40:54] [Server thread/INFO]: Flushing Chunk IO
-[15:40:54] [Server thread/INFO]: Closing Thread Pool
-[15:40:54] [Server thread/INFO]: Closing Server
+[03:00:22] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[03:00:45] [Worker-Main-1/INFO]: Loaded 7 recipes
+[03:01:48] [Server thread/INFO]: Starting minecraft server version 1.18.2
+[03:01:48] [Server thread/INFO]: Loading properties
+[03:01:52] [Server thread/INFO]: This server is running Paper version git-Paper-352 (MC: 1.18.2) (Implementing API version 1.18.2-R0.1-SNAPSHOT) (Git: af3b377)
+[03:01:53] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[03:01:53] [Server thread/INFO]: Using 4 threads for Netty based IO
+[03:01:55] [Server thread/INFO]: Default game type: SURVIVAL
+[03:01:55] [Server thread/INFO]: Generating keypair
+[03:01:56] [Server thread/INFO]: Starting Minecraft server on *:25565
+[03:01:57] [Server thread/INFO]: Using default channel type
+[03:01:58] [Server thread/INFO]: Paper: Using Java 11 compression from Velocity.
+[03:01:58] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[03:02:07] [Server thread/INFO]: [PluginManager] Loading PluginManager v2.7.1
+[03:02:07] [Server thread/INFO]: [VoidGen] Loading VoidGen v2.2.1
+[03:02:07] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[03:02:07] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.1
+[03:02:07] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.3.1-b861
+[03:02:08] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.10+1742f98
+[03:02:16] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@222b854c]
+[03:02:17] [Server thread/INFO]: [TestPlugin] Loading TestPlugin v1.0.0
+[03:02:17] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.4
+[03:02:17] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[03:02:17] [Server thread/INFO]: [VoidGen] Enabling VoidGen v2.2.1
+[03:02:17] [Server thread/INFO]: [VoidGen] Using VoidChunkGen: VERSION_UNKNOWN
+[03:02:17] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[03:02:17] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.19.4 which is not a depend or softdepend of this plugin.
+[03:02:17] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[03:02:17] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[03:02:17] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[03:02:17] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.10+1742f98
+[03:02:17] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[03:02:20] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[03:02:28] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_18_R2.PaperweightAdapter as the Bukkit adapter
+[03:02:39] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[03:02:39] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[03:02:39] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[03:02:39] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[03:02:39] [Server thread/INFO]: Preparing level "void"
+[03:02:40] [Server thread/INFO]: [VoidGen] Generator settings have not been set. Using default values:
+[03:02:40] [Server thread/INFO]: [VoidGen] {"caves":false,"decoration":false,"mobs":false,"structures":false,"noise":false,"surface":false,"bedrock":false}
+[03:02:45] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[03:02:46] [Server thread/INFO]: Time elapsed: 1440 ms
+[03:02:46] [Server thread/INFO]: [PluginManager] Enabling PluginManager v2.7.1
+[03:02:46] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.1
+[03:03:01] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[03:03:01] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
+[03:03:01] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[03:03:01] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[03:03:03] [Server thread/INFO]: [VoidGen] Generator settings "{mobs:" syntax is not valid. Using default values:
+[03:03:03] [Server thread/INFO]: [VoidGen] {"caves":false,"decoration":false,"mobs":false,"structures":false,"noise":false,"surface":false,"bedrock":false}
+[03:03:03] [Server thread/INFO]: [Multiverse-Core] 1 - World(s) loaded.
+[03:03:03] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[03:03:03] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[03:03:03] [Server thread/INFO]: [TestPlugin] Enabling TestPlugin v1.0.0
+[03:03:03] [Server thread/INFO]: [TestPlugin] - Vault dependency found!
+[03:03:04] [Server thread/INFO]: <------------------------------------->
+[03:03:04] [Server thread/INFO]: [TestPlugin] Has loaded successful in the server - v1.0.0
+[03:03:04] [Server thread/INFO]: [TestPlugin] This plugin is only for testing code on the server!
+[03:03:04] [Server thread/INFO]: <------------------------------------->
+[03:03:04] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.4
+[03:03:17] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[03:03:17] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[03:03:20] [Server thread/INFO]: [Essentials] Loaded 36926 items from items.json.
+[03:03:21] [Server thread/INFO]: [Essentials] Using locale es_VE
+[03:03:21] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[03:03:22] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[03:03:22] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[03:03:22] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[03:03:24] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[03:03:24] [Server thread/INFO]: Running delayed init tasks
+[03:03:24] [Server thread/INFO]: [TestPlugin] A simple brouh for testing the plugin xDxD
+[03:03:24] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[03:03:24] [Server thread/INFO]: Done (96.844s)! For help, type "help"
+[03:03:24] [Server thread/INFO]: Timings Reset
+[03:03:24] [Craft Scheduler Thread - 7 - Essentials/INFO]: [Essentials] §6Obteniendo información de versión...
+[03:03:24] [Craft Scheduler Thread - 8 - Vault/INFO]: [Vault] Checking for Updates ... 
+[03:03:24] [Server thread/INFO]: 0 placeholder hook(s) registered!
+[03:03:30] [Craft Scheduler Thread - 8 - Vault/INFO]: [Vault] No new version available
+[03:03:32] [Craft Scheduler Thread - 4 - PluginManager/INFO]: PM | You are using the latest version of PluginManager.
+[03:03:34] [Server thread/INFO]: [TestPlugin] A simple xd for testing the plugin xDxD
+[03:03:44] [Server thread/INFO]: [TestPlugin] Nice job bro, you joined in the server xDxD
+[03:03:54] [Server thread/INFO]: [TestPlugin] A simple brouh for testing the plugin xDxD
+[03:04:04] [Server thread/INFO]: [TestPlugin] Nice job bro, you joined in the server xDxD
+[03:04:14] [Server thread/INFO]: [TestPlugin] A simple xd for testing the plugin xDxD
+[03:04:24] [Server thread/INFO]: [TestPlugin] A simple announcement for testing the plugin xDxD
+[03:04:34] [Server thread/INFO]: [TestPlugin] A simple announcement for testing the plugin xDxD
+[03:04:44] [Server thread/INFO]: [TestPlugin] A simple announcement for testing the plugin xDxD
+[03:04:54] [Server thread/INFO]: [TestPlugin] A simple announcement for testing the plugin xDxD
+[03:05:04] [Server thread/INFO]: [TestPlugin] A simple announcement for testing the plugin xDxD
+[03:05:14] [Server thread/INFO]: [TestPlugin] A simple announcement for testing the plugin xDxD
+[03:05:24] [Server thread/INFO]: [TestPlugin] A simple message for testing the plugin xDxD
+[03:05:34] [Server thread/INFO]: [TestPlugin] A simple announcement for testing the plugin xDxD
+[03:05:44] [Server thread/INFO]: [TestPlugin] A simple announcement for testing the plugin xDxD
+[03:05:54] [Server thread/INFO]: [TestPlugin] A simple brouh for testing the plugin xDxD
+[03:06:04] [Server thread/INFO]: [TestPlugin] A simple message for testing the plugin xDxD
+[03:06:14] [Server thread/INFO]: [TestPlugin] A simple xd for testing the plugin xDxD
+[03:06:24] [Server thread/INFO]: [TestPlugin] A simple xd for testing the plugin xDxD
+[03:06:34] [Server thread/INFO]: [TestPlugin] A simple announcement for testing the plugin xDxD
+[03:06:44] [Server thread/INFO]: [TestPlugin] A simple xd for testing the plugin xDxD
+[03:06:54] [Server thread/INFO]: [TestPlugin] A simple announcement for testing the plugin xDxD
+[03:07:04] [Server thread/INFO]: [TestPlugin] A simple brouh for testing the plugin xDxD
+[03:07:14] [Server thread/INFO]: [TestPlugin] A simple brouh for testing the plugin xDxD
+[03:07:24] [Server thread/INFO]: [TestPlugin] A simple xd for testing the plugin xDxD
+[03:07:34] [Server thread/INFO]: [TestPlugin] Nice job bro, you joined in the server xDxD
+[03:07:44] [Server thread/INFO]: [TestPlugin] A simple message for testing the plugin xDxD
+[03:07:54] [Server thread/INFO]: [TestPlugin] Nice job bro, you joined in the server xDxD
+[03:08:04] [Server thread/INFO]: [TestPlugin] A simple brouh for testing the plugin xDxD
+[03:08:14] [Server thread/INFO]: [TestPlugin] A simple announcement for testing the plugin xDxD
+[03:08:24] [Server thread/INFO]: [TestPlugin] A simple xd for testing the plugin xDxD
+[03:08:34] [Server thread/INFO]: [TestPlugin] A simple message for testing the plugin xDxD
+[03:08:44] [Server thread/INFO]: [TestPlugin] Nice job bro, you joined in the server xDxD
+[03:08:54] [Server thread/INFO]: [TestPlugin] A simple xd for testing the plugin xDxD
+[03:09:04] [Server thread/INFO]: [TestPlugin] A simple xd for testing the plugin xDxD
+[03:09:14] [Server thread/INFO]: [TestPlugin] A simple xd for testing the plugin xDxD
+[03:09:24] [Server thread/INFO]: [TestPlugin] A simple message for testing the plugin xDxD
+[03:09:34] [Server thread/INFO]: [TestPlugin] A simple announcement for testing the plugin xDxD
+[03:09:44] [Server thread/INFO]: [TestPlugin] A simple announcement for testing the plugin xDxD
+[03:09:54] [Server thread/INFO]: [TestPlugin] A simple brouh for testing the plugin xDxD
+[03:10:04] [Server thread/INFO]: [TestPlugin] Nice job bro, you joined in the server xDxD
+[03:10:14] [Server thread/INFO]: [TestPlugin] A simple announcement for testing the plugin xDxD
+[03:10:24] [Server thread/INFO]: [TestPlugin] A simple xd for testing the plugin xDxD
+[03:10:34] [Server thread/INFO]: [TestPlugin] A simple announcement for testing the plugin xDxD
+[03:10:44] [Server thread/INFO]: [TestPlugin] A simple message for testing the plugin xDxD
+[03:10:54] [Server thread/INFO]: [TestPlugin] A simple brouh for testing the plugin xDxD
+[03:11:04] [Server thread/INFO]: [TestPlugin] A simple announcement for testing the plugin xDxD
+[03:11:14] [Server thread/INFO]: [TestPlugin] A simple brouh for testing the plugin xDxD
+[03:11:24] [Server thread/INFO]: [TestPlugin] Nice job bro, you joined in the server xDxD
+[03:11:34] [Server thread/INFO]: [TestPlugin] Nice job bro, you joined in the server xDxD
+[03:11:44] [Server thread/INFO]: [TestPlugin] A simple brouh for testing the plugin xDxD
+[03:11:54] [Server thread/INFO]: [TestPlugin] A simple announcement for testing the plugin xDxD
+[03:12:04] [Server thread/INFO]: [TestPlugin] A simple message for testing the plugin xDxD
+[03:12:14] [Server thread/INFO]: [TestPlugin] A simple announcement for testing the plugin xDxD
+[03:12:24] [Server thread/INFO]: [TestPlugin] A simple xd for testing the plugin xDxD
+[03:12:34] [Server thread/INFO]: [TestPlugin] Nice job bro, you joined in the server xDxD
+[03:12:44] [Server thread/INFO]: [TestPlugin] Nice job bro, you joined in the server xDxD
+[03:12:54] [Server thread/INFO]: [TestPlugin] A simple xd for testing the plugin xDxD
+[03:13:04] [Server thread/INFO]: [TestPlugin] A simple announcement for testing the plugin xDxD
+[03:13:14] [Server thread/INFO]: [TestPlugin] A simple announcement for testing the plugin xDxD
+[03:13:24] [Server thread/INFO]: [TestPlugin] A simple xd for testing the plugin xDxD
+[03:13:34] [Server thread/INFO]: [TestPlugin] A simple message for testing the plugin xDxD
+[03:13:44] [Server thread/INFO]: [TestPlugin] A simple xd for testing the plugin xDxD
+[03:13:54] [Server thread/INFO]: [TestPlugin] Nice job bro, you joined in the server xDxD
+[03:14:04] [Server thread/INFO]: [TestPlugin] A simple announcement for testing the plugin xDxD
+[03:14:14] [Server thread/INFO]: [TestPlugin] A simple announcement for testing the plugin xDxD
+[03:14:24] [Server thread/INFO]: [TestPlugin] Nice job bro, you joined in the server xDxD
+[03:14:34] [Server thread/INFO]: [TestPlugin] A simple xd for testing the plugin xDxD
+[03:14:44] [Server thread/INFO]: [TestPlugin] A simple message for testing the plugin xDxD
+[03:14:54] [Server thread/INFO]: [TestPlugin] A simple xd for testing the plugin xDxD
+[03:15:04] [Server thread/INFO]: [TestPlugin] A simple xd for testing the plugin xDxD
+[03:15:14] [Server thread/INFO]: [TestPlugin] A simple brouh for testing the plugin xDxD
+[03:15:24] [Server thread/INFO]: [TestPlugin] A simple message for testing the plugin xDxD
+[03:15:34] [Server thread/INFO]: [TestPlugin] Nice job bro, you joined in the server xDxD
+[03:15:44] [Server thread/INFO]: [TestPlugin] A simple xd for testing the plugin xDxD
+[03:15:54] [Server thread/INFO]: [TestPlugin] A simple announcement for testing the plugin xDxD
+[03:16:04] [Server thread/INFO]: [TestPlugin] Nice job bro, you joined in the server xDxD
+[03:16:14] [Server thread/INFO]: [TestPlugin] Nice job bro, you joined in the server xDxD
+[03:16:24] [Server thread/INFO]: [TestPlugin] Nice job bro, you joined in the server xDxD
+[03:16:34] [Server thread/INFO]: [TestPlugin] A simple message for testing the plugin xDxD
+[03:16:44] [Server thread/INFO]: [TestPlugin] Nice job bro, you joined in the server xDxD
+[03:16:54] [Server thread/INFO]: [TestPlugin] A simple announcement for testing the plugin xDxD
+[03:17:04] [Server thread/INFO]: [TestPlugin] A simple xd for testing the plugin xDxD
+[03:17:14] [Server thread/INFO]: [TestPlugin] A simple xd for testing the plugin xDxD
+[03:17:24] [Server thread/INFO]: [TestPlugin] A simple message for testing the plugin xDxD
+[03:17:34] [Server thread/INFO]: [TestPlugin] A simple brouh for testing the plugin xDxD
+[03:17:44] [Server thread/INFO]: [TestPlugin] A simple brouh for testing the plugin xDxD
+[03:17:54] [Server thread/INFO]: [TestPlugin] A simple message for testing the plugin xDxD
+[03:18:04] [Server thread/INFO]: [TestPlugin] A simple brouh for testing the plugin xDxD
+[03:18:14] [Server thread/INFO]: [TestPlugin] A simple brouh for testing the plugin xDxD
+[03:18:24] [Server thread/INFO]: [TestPlugin] Nice job bro, you joined in the server xDxD
+[03:18:34] [Server thread/INFO]: [TestPlugin] Nice job bro, you joined in the server xDxD
+[03:18:44] [Server thread/INFO]: [TestPlugin] A simple brouh for testing the plugin xDxD
+[03:18:50] [User Authenticator #1/INFO]: UUID of player WinFlix is 9a143fb1-f2a9-33fb-b588-ae4ace4f92c7
+[03:18:56] [Server thread/INFO]: WinFlix joined the game
+[03:18:56] [Server thread/INFO]: WinFlix[/127.0.0.1:59112] logged in with entity id 1 at ([void]0.44273957423271076, 67.0, 0.5312475058322307)
+[03:18:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6115ms or 122 ticks behind
+[03:19:02] [Server thread/INFO]: [TestPlugin] Nice job bro, you joined in the server xDxD
+[03:19:08] [Server thread/INFO]: WinFlix issued server command: /test-plugin entity
+[03:19:10] [Server thread/INFO]: [TestPlugin] A simple xd for testing the plugin xDxD
+[03:19:14] [Server thread/INFO]: WinFlix issued server command: /test-plugin spawn-entity
+[03:19:17] [Server thread/INFO]: WinFlix issued server command: /gamemode creative
+[03:19:20] [Server thread/INFO]: [TestPlugin] A simple announcement for testing the plugin xDxD
+[03:19:30] [Server thread/INFO]: Named entity EntityCow['Itemperus'/2, uuid='218c9cc3-9a80-4cf7-a05f-0fffec04b8f9', l='ServerLevel[void]', x=2.29, y=67.00, z=1.80, cpos=[0, 0], tl=316, v=true] died: Itemperus was slain by WinFlix
+[03:19:30] [Server thread/INFO]: [TestPlugin] A simple brouh for testing the plugin xDxD
+[03:19:40] [Server thread/INFO]: [TestPlugin] Nice job bro, you joined in the server xDxD
+[03:19:50] [Server thread/INFO]: [TestPlugin] A simple message for testing the plugin xDxD
+[03:19:51] [Server thread/INFO]: WinFlix issued server command: /test-plugin spawn-entity
+[03:19:55] [Server thread/INFO]: Named entity EntityCow['Itemperus'/13, uuid='1b0c31fe-cb11-49c3-828a-deb6231964cc', l='ServerLevel[void]', x=1.42, y=65.00, z=-0.42, cpos=[0, -1], tl=88, v=true] died: Itemperus was slain by WinFlix
+[03:20:00] [Server thread/INFO]: [TestPlugin] A simple announcement for testing the plugin xDxD
+[03:20:10] [Server thread/INFO]: [TestPlugin] A simple announcement for testing the plugin xDxD
+[03:20:20] [Server thread/INFO]: [TestPlugin] A simple xd for testing the plugin xDxD
+[03:20:30] [Server thread/INFO]: [TestPlugin] A simple announcement for testing the plugin xDxD
+[03:20:37] [Server thread/INFO]: WinFlix issued server command: /test-plugin spawn-entity
+[03:20:39] [Server thread/INFO]: Named entity EntityCow['Itemperus'/51, uuid='06cd6bc3-c783-47df-a4e4-5cb41971e45b', l='ServerLevel[void]', x=-0.74, y=65.00, z=-0.39, cpos=[-1, -1], tl=37, v=true] died: Itemperus was slain by WinFlix
+[03:20:40] [Server thread/INFO]: [TestPlugin] A simple xd for testing the plugin xDxD
+[03:20:47] [Server thread/INFO]: WinFlix issued server command: /stop
+[03:20:47] [Server thread/INFO]: [WinFlix: Stopping the server]
+[03:20:47] [Server thread/INFO]: Stopping server
+[03:20:47] [Server thread/INFO]: [Essentials] Disabling Essentials v2.19.4
+[03:20:47] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[03:20:47] [Server thread/INFO]: [TestPlugin] Disabling TestPlugin v1.0.0
+[03:20:47] [Server thread/INFO]: [TestPlugin] has disabled v1.0.0
+[03:20:47] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.10+1742f98
+[03:20:47] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[03:20:47] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.1-b861
+[03:20:47] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.1
+[03:20:47] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[03:20:47] [Server thread/INFO]: [VoidGen] Disabling VoidGen v2.2.1
+[03:20:47] [Server thread/INFO]: [PluginManager] Disabling PluginManager v2.7.1
+[03:20:47] [Server thread/INFO]: Saving players
+[03:20:47] [Server thread/INFO]: WinFlix lost connection: Server closed
+[03:20:48] [Server thread/INFO]: WinFlix left the game
+[03:20:48] [Server thread/INFO]: Saving worlds
+[03:20:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[void]'/minecraft:overworld
+[03:20:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (void): All chunks are saved
+[03:20:51] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[03:20:53] [Server thread/INFO]: Flushing Chunk IO
+[03:20:53] [Server thread/INFO]: Closing Thread Pool
+[03:20:53] [Server thread/INFO]: Closing Server

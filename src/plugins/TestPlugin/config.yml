@@ -2,15 +2,19 @@ Config:
   welcome-message: true
   spawn-requeriment-item:
     is-required: true
-    material: DIAMOND
-    name: ''
+    material: DIAMOND_SWORD
+    name: '&bHoer for Tp'
     amount: 1
-    lore: []
-    enchantments: []
+    lore:
+    - '&7&oThis is a test'
+    - '&7&oThis is another test'
+    - '&7&oThis is a third test'
+    enchantments:
+    - FIRE_ASPECT;1
   Spawn:
-    x: 0.44332255526411074
+    x: 0.44273957423271076
     y: 67.0
-    z: 0.25917124073177805
-    yaw: -2.278877
-    pitch: -5.1924386
+    z: 0.5312475058322307
+    yaw: 92.2493
+    pitch: 4.9402137
     world: void
