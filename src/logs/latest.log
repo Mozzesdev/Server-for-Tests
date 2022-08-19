@@ -1,114 +1,123 @@
-[10:42:04] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[10:42:15] [Worker-Main-1/INFO]: Loaded 7 recipes
-[10:42:25] [Server thread/INFO]: Starting minecraft server version 1.18.2
-[10:42:25] [Server thread/INFO]: Loading properties
-[10:42:25] [Server thread/INFO]: This server is running Paper version git-Paper-352 (MC: 1.18.2) (Implementing API version 1.18.2-R0.1-SNAPSHOT) (Git: af3b377)
-[10:42:25] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[10:42:25] [Server thread/INFO]: Using 4 threads for Netty based IO
-[10:42:26] [Server thread/INFO]: Default game type: SURVIVAL
-[10:42:26] [Server thread/INFO]: Generating keypair
-[10:42:26] [Server thread/INFO]: Starting Minecraft server on *:25565
-[10:42:27] [Server thread/INFO]: Using default channel type
-[10:42:27] [Server thread/INFO]: Paper: Using Java 11 compression from Velocity.
-[10:42:27] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[10:42:30] [Server thread/INFO]: [PluginManager] Loading PluginManager v2.7.1
-[10:42:30] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.25
-[10:42:31] [Server thread/INFO]: [VoidGen] Loading VoidGen v2.2.1
-[10:42:31] [Server thread/INFO]: [TestPlugin] Loading TestPlugin v1.0.0
-[10:42:31] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
-[10:42:31] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.1
-[10:42:31] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.3.1-b861
-[10:42:31] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v4.8.0
-[10:42:38] [Server thread/INFO]: [DeluxeJoin] Loading DeluxeJoin v2.9.2
-[10:42:38] [Server thread/INFO]: [ANM] Loading AdvancedNMotd v9.2.0
-[10:42:38] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.10+1742f98
-[10:42:41] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@49e8a760]
-[10:42:41] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.4
-[10:42:41] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[10:42:41] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.25
-[10:42:43] [Server thread/INFO]:         __    
-[10:42:43] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.25
-[10:42:43] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[10:42:43] [Server thread/INFO]: 
-[10:42:43] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[10:42:44] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[10:42:46] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[10:42:46] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[10:42:46] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 4952ms)
-[10:42:46] [Server thread/INFO]: [VoidGen] Enabling VoidGen v2.2.1
-[10:42:46] [Server thread/INFO]: [VoidGen] Using VoidChunkGen: VERSION_UNKNOWN
-[10:42:46] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[10:42:46] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.19.4 which is not a depend or softdepend of this plugin.
-[10:42:47] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[10:42:47] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[10:42:47] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[10:42:47] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[10:42:47] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v4.8.0
-[10:42:47] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
-[10:42:47] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.10+1742f98
-[10:42:47] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[10:42:48] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[10:42:48] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_18_R2.PaperweightAdapter as the Bukkit adapter
-[10:42:53] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[10:42:53] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[10:42:53] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[10:42:53] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[10:42:53] [Server thread/INFO]: Preparing level "void"
-[10:42:54] [Server thread/INFO]: [VoidGen] Generator settings have not been set. Using default values:
-[10:42:54] [Server thread/INFO]: [VoidGen] {"caves":false,"decoration":false,"mobs":false,"structures":false,"noise":false,"surface":false,"bedrock":false}
-[10:42:55] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[10:42:56] [Server thread/INFO]: Time elapsed: 920 ms
-[10:42:56] [Server thread/INFO]: [PluginManager] Enabling PluginManager v2.7.1
-[10:42:56] [Server thread/INFO]: [TestPlugin] Enabling TestPlugin v1.0.0
-[10:42:56] [Server thread/INFO]: <------------------------------------->
-[10:42:56] [Server thread/INFO]: [TestPlugin] Has loaded successful in the server - v1.0.0
-[10:42:56] [Server thread/INFO]: [TestPlugin] This plugin is only for testing code on the server!
-[10:42:56] [Server thread/INFO]: <------------------------------------->
-[10:42:56] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.1
-[10:42:57] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[10:42:57] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
-[10:42:57] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
-[10:42:57] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
-[10:42:58] [Server thread/INFO]: [VoidGen] Generator settings "{mobs:" syntax is not valid. Using default values:
-[10:42:58] [Server thread/INFO]: [VoidGen] {"caves":false,"decoration":false,"mobs":false,"structures":false,"noise":false,"surface":false,"bedrock":false}
-[10:42:58] [Server thread/INFO]: [Multiverse-Core] 1 - World(s) loaded.
-[10:42:58] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
-[10:42:58] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
-[10:42:58] [Server thread/INFO]: [DeluxeJoin] Enabling DeluxeJoin v2.9.2
-[10:42:58] [Server thread/INFO]: [DeluxeJoin] Your server version is not compatible with DeluxeJoin!!
-[10:42:58] [Server thread/INFO]: [DeluxeJoin] Disabling DeluxeJoin v2.9.2
-[10:42:58] [Server thread/INFO]: [ANM] Enabling AdvancedNMotd v9.2.0
-[10:42:58] [Server thread/INFO]: 
-[10:42:58] [Server thread/INFO]: ---------------- AdvancedNMotd --------------
-[10:42:58] [Server thread/INFO]:            AdvancedNMotd is enabled!
-[10:42:58] [Server thread/INFO]: ---------------------------------------------
-[10:42:58] [Server thread/INFO]: 
-[10:42:58] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.4
-[10:42:59] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[10:42:59] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[10:43:00] [Server thread/INFO]: [Essentials] Loaded 36926 items from items.json.
-[10:43:00] [Server thread/INFO]: [Essentials] Using locale es_CO
-[10:43:00] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[10:43:00] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[10:43:00] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[10:43:00] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
-[10:43:01] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[10:43:01] [Server thread/INFO]: Running delayed init tasks
-[10:43:02] [Craft Scheduler Thread - 7 - Essentials/INFO]: [Essentials] §6Obteniendo información de versión...
-[10:43:02] [Craft Scheduler Thread - 12 - Vault/INFO]: [Vault] Checking for Updates ... 
-[10:43:03] [Server thread/INFO]: 
-[10:43:03] [Server thread/INFO]: ------------ AdvancedNMotd Updater ----------
-[10:43:03] [Server thread/INFO]: You have the latest version of AdvancedNMotd!
-[10:43:03] [Server thread/INFO]: Current version: 9.2.0 for every 1.8+ server!
-[10:43:03] [Server thread/INFO]: ---------------------------------------------
-[10:43:03] [Server thread/INFO]: 
-[10:43:03] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[10:43:03] [Server thread/INFO]: 0 placeholder hook(s) registered!
-[10:43:03] [Server thread/INFO]: Done (39.529s)! For help, type "help"
-[10:43:03] [Server thread/INFO]: Timings Reset
-[10:43:03] [Craft Scheduler Thread - 12 - Vault/INFO]: [Vault] No new version available
-[10:43:04] [Craft Scheduler Thread - 4 - PluginManager/INFO]: PM | You are using the latest version of PluginManager.
-[10:43:07] [Netty Server IO #1/ERROR]: [AdvancedNMotd] Unhandled exception occured in onPacketSending(PacketEvent) for AdvancedNMotd
+[11:29:50] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[11:30:02] [Worker-Main-1/INFO]: Loaded 7 recipes
+[11:30:07] [Server thread/INFO]: Starting minecraft server version 1.18.2
+[11:30:07] [Server thread/INFO]: Loading properties
+[11:30:07] [Server thread/INFO]: This server is running Paper version git-Paper-352 (MC: 1.18.2) (Implementing API version 1.18.2-R0.1-SNAPSHOT) (Git: af3b377)
+[11:30:08] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[11:30:08] [Server thread/INFO]: Using 4 threads for Netty based IO
+[11:30:08] [Server thread/INFO]: Default game type: SURVIVAL
+[11:30:08] [Server thread/INFO]: Generating keypair
+[11:30:09] [Server thread/INFO]: Starting Minecraft server on *:25565
+[11:30:10] [Server thread/INFO]: Using default channel type
+[11:30:10] [Server thread/INFO]: Paper: Using Java 11 compression from Velocity.
+[11:30:10] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[11:30:15] [Server thread/INFO]: [PluginManager] Loading PluginManager v2.7.1
+[11:30:15] [Server thread/INFO]: [LuckPerms] Loading LuckPerms v5.4.25
+[11:30:17] [Server thread/INFO]: [VoidGen] Loading VoidGen v2.2.1
+[11:30:17] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[11:30:17] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.1
+[11:30:17] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.3.1-b861
+[11:30:17] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v4.8.0
+[11:30:23] [Server thread/INFO]: [DeluxeJoin] Loading DeluxeJoin v2.9.2
+[11:30:23] [Server thread/INFO]: [ANM] Loading AdvancedNMotd v9.2.0
+[11:30:23] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.10+1742f98
+[11:30:26] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@1c8d8a4d]
+[11:30:26] [Server thread/INFO]: [TestPlugin] Loading TestPlugin v1.0.0
+[11:30:26] [Server thread/INFO]: [Essentials] Loading Essentials v2.19.4
+[11:30:26] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[11:30:26] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.25
+[11:30:27] [Server thread/INFO]:         __    
+[11:30:27] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.25
+[11:30:27] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[11:30:27] [Server thread/INFO]: 
+[11:30:27] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[11:30:32] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[11:30:33] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[11:30:34] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[11:30:34] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 8276ms)
+[11:30:34] [Server thread/INFO]: [VoidGen] Enabling VoidGen v2.2.1
+[11:30:34] [Server thread/INFO]: [VoidGen] Using VoidChunkGen: VERSION_UNKNOWN
+[11:30:34] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[11:30:34] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.19.4 which is not a depend or softdepend of this plugin.
+[11:30:34] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[11:30:34] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[11:30:34] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[11:30:35] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[11:30:35] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v4.8.0
+[11:30:35] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
+[11:30:35] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.10+1742f98
+[11:30:35] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[11:30:36] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[11:30:36] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_18_R2.PaperweightAdapter as the Bukkit adapter
+[11:30:41] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[11:30:41] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[11:30:41] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[11:30:41] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[11:30:41] [Server thread/INFO]: Preparing level "void"
+[11:30:41] [Server thread/INFO]: [VoidGen] Generator settings have not been set. Using default values:
+[11:30:41] [Server thread/INFO]: [VoidGen] {"caves":false,"decoration":false,"mobs":false,"structures":false,"noise":false,"surface":false,"bedrock":false}
+[11:30:43] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[11:30:45] [Server thread/INFO]: Time elapsed: 1275 ms
+[11:30:45] [Server thread/INFO]: [PluginManager] Enabling PluginManager v2.7.1
+[11:30:45] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.1
+[11:30:47] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[11:30:47] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
+[11:30:47] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[11:30:47] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[11:30:48] [Server thread/INFO]: [VoidGen] Generator settings "{mobs:" syntax is not valid. Using default values:
+[11:30:48] [Server thread/INFO]: [VoidGen] {"caves":false,"decoration":false,"mobs":false,"structures":false,"noise":false,"surface":false,"bedrock":false}
+[11:30:48] [Server thread/INFO]: [Multiverse-Core] 1 - World(s) loaded.
+[11:30:48] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[11:30:48] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[11:30:48] [Server thread/INFO]: [DeluxeJoin] Enabling DeluxeJoin v2.9.2
+[11:30:48] [Server thread/INFO]: [DeluxeJoin] Your server version is not compatible with DeluxeJoin!!
+[11:30:48] [Server thread/INFO]: [DeluxeJoin] Disabling DeluxeJoin v2.9.2
+[11:30:48] [Server thread/INFO]: [ANM] Enabling AdvancedNMotd v9.2.0
+[11:30:49] [Server thread/INFO]: 
+[11:30:49] [Server thread/INFO]: ---------------- AdvancedNMotd --------------
+[11:30:49] [Server thread/INFO]:            AdvancedNMotd is enabled!
+[11:30:49] [Server thread/INFO]: ---------------------------------------------
+[11:30:49] [Server thread/INFO]: 
+[11:30:49] [Server thread/INFO]: [TestPlugin] Enabling TestPlugin v1.0.0
+[11:30:49] [Server thread/INFO]: [TestPlugin] - Vault dependency found!
+[11:30:49] [Server thread/INFO]: <------------------------------------->
+[11:30:49] [Server thread/INFO]: [TestPlugin] Has loaded successful in the server - v1.0.0
+[11:30:49] [Server thread/INFO]: [TestPlugin] This plugin is only for testing code on the server!
+[11:30:49] [Server thread/INFO]: <------------------------------------->
+[11:30:49] [Server thread/INFO]: [Essentials] Enabling Essentials v2.19.4
+[11:30:52] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[11:30:52] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[11:30:53] [Server thread/INFO]: [Essentials] Loaded 36926 items from items.json.
+[11:30:53] [Server thread/INFO]: [Essentials] Using locale en_US
+[11:30:54] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[11:30:54] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[11:30:54] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[11:30:54] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[11:30:55] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[11:30:55] [Server thread/INFO]: Running delayed init tasks
+[11:30:55] [Craft Scheduler Thread - 7 - Essentials/INFO]: [Essentials] §6Fetching version information...
+[11:30:55] [Craft Scheduler Thread - 12 - Vault/INFO]: [Vault] Checking for Updates ... 
+[11:30:57] [Craft Scheduler Thread - 12 - Vault/INFO]: [Vault] No new version available
+[11:30:58] [Server thread/INFO]: 
+[11:30:58] [Server thread/INFO]: ------------ AdvancedNMotd Updater ----------
+[11:30:58] [Server thread/INFO]: You have the latest version of AdvancedNMotd!
+[11:30:58] [Server thread/INFO]: Current version: 9.2.0 for every 1.8+ server!
+[11:30:58] [Server thread/INFO]: ---------------------------------------------
+[11:30:58] [Server thread/INFO]: 
+[11:30:58] [Server thread/INFO]: [TestPlugin] A simple brouh for testing the plugin xDxD
+[11:30:58] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[11:30:58] [Server thread/INFO]: 0 placeholder hook(s) registered!
+[11:30:58] [Server thread/INFO]: [PlaceholderAPI] An update for PlaceholderAPI (v2.11.2) is available at:
+[11:30:58] [Server thread/INFO]: [PlaceholderAPI] https://www.spigotmc.org/resources/placeholderapi.6245/
+[11:30:58] [Server thread/INFO]: Done (51.085s)! For help, type "help"
+[11:30:58] [Server thread/INFO]: Timings Reset
+[11:30:59] [Craft Scheduler Thread - 7 - Essentials/WARN]: [Essentials] §4There is a new EssentialsX version available for download: §c2.19.6§4.
+[11:30:59] [Craft Scheduler Thread - 7 - Essentials/WARN]: [Essentials] §4Download it here:§c https://essentialsx.net/downloads.html?branch=stable
+[11:31:00] [Craft Scheduler Thread - 4 - PluginManager/INFO]: PM | You are using the latest version of PluginManager.
+[11:31:05] [Server thread/INFO]: [TestPlugin] A simple brouh for testing the plugin xDxD
+[11:31:15] [Server thread/INFO]: [TestPlugin] A simple announcement for testing the plugin xDxD
+[11:31:25] [Server thread/INFO]: [TestPlugin] Nice job bro, you joined in the server xDxD
+[11:31:31] [Netty Server IO #1/ERROR]: [AdvancedNMotd] Unhandled exception occured in onPacketSending(PacketEvent) for AdvancedNMotd
 java.lang.NoClassDefFoundError: org/bukkit/craftbukkit/libs/org/apache/commons/io/FileUtils
 	at ru.namerpro.Protocol.Base.Main.imgToStr(Main.java:195) ~[AdvancedNMotd-9.2.0.jar:?]
 	at ru.namerpro.Protocol.Base.Main.onPacketSending(Main.java:143) ~[AdvancedNMotd-9.2.0.jar:?]
@@ -194,12 +203,13 @@ Caused by: java.lang.ClassNotFoundException: org.bukkit.craftbukkit.libs.org.apa
 	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:103) ~[paper-api-1.18.2-R0.1-SNAPSHOT.jar:?]
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
 	... 79 more
-[10:43:07] [Netty Server IO #1/ERROR]: Parameters: 
-  net.minecraft.network.protocol.status.PacketStatusOutServerInfo@667e331c[
-    b=net.minecraft.network.protocol.status.ServerPing@11203024
+[11:31:31] [Netty Server IO #1/ERROR]: Parameters: 
+  net.minecraft.network.protocol.status.PacketStatusOutServerInfo@65f8907d[
+    b=net.minecraft.network.protocol.status.ServerPing@570648b7
   ]
 
-[10:46:33] [Netty Server IO #2/ERROR]: [AdvancedNMotd] Unhandled exception occured in onPacketSending(PacketEvent) for AdvancedNMotd
+[11:31:35] [Server thread/INFO]: [TestPlugin] A simple brouh for testing the plugin xDxD
+[11:31:36] [Netty Server IO #2/ERROR]: [AdvancedNMotd] Unhandled exception occured in onPacketSending(PacketEvent) for AdvancedNMotd
 java.lang.NoClassDefFoundError: org/bukkit/craftbukkit/libs/org/apache/commons/io/FileUtils
 	at ru.namerpro.Protocol.Base.Main.imgToStr(Main.java:195) ~[AdvancedNMotd-9.2.0.jar:?]
 	at ru.namerpro.Protocol.Base.Main.onPacketSending(Main.java:143) ~[AdvancedNMotd-9.2.0.jar:?]
@@ -282,23 +292,34 @@ java.lang.NoClassDefFoundError: org/bukkit/craftbukkit/libs/org/apache/commons/i
 	at java.lang.Thread.run(Thread.java:833) ~[?:?]
 Caused by: java.lang.ClassNotFoundException: org.bukkit.craftbukkit.libs.org.apache.commons.io.FileUtils
 	... 79 more
-[10:46:33] [Netty Server IO #2/ERROR]: Parameters: 
-  net.minecraft.network.protocol.status.PacketStatusOutServerInfo@5a864f17[
-    b=net.minecraft.network.protocol.status.ServerPing@7ba39a01
+[11:31:36] [Netty Server IO #2/ERROR]: Parameters: 
+  net.minecraft.network.protocol.status.PacketStatusOutServerInfo@62d84da5[
+    b=net.minecraft.network.protocol.status.ServerPing@16cf2d18
   ]
 
-[10:48:54] [User Authenticator #1/INFO]: UUID of player TheCheckSaw is 0d8d2e47-34b5-3d31-8f1a-834944a50e1c
-[10:48:55] [Server thread/INFO]: TheCheckSaw joined the game
-[10:48:55] [Server thread/INFO]: TheCheckSaw[/127.0.0.1:61663] logged in with entity id 26 at ([void]84.0, 27.0, -42.0)
-[10:48:57] [Server thread/WARN]: [Essentials] Permissions lag notice with (LuckPermsHandler). Response took 208,629800ms. Summary: Getting group for TheCheckSaw
-[10:49:05] [Server thread/INFO]: TheCheckSaw issued server command: /fly
-[10:51:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6848ms or 136 ticks behind
-[11:09:51] [Server thread/INFO]: TheCheckSaw issued server command: /gamemode creative
-[11:10:33] [Server thread/INFO]: TheCheckSaw has made the advancement [Diamonds!]
-[11:11:54] [Server thread/INFO]: TheCheckSaw has made the advancement [Glow and Behold!]
-[11:13:12] [Server thread/INFO]: TheCheckSaw lost connection: Disconnected
-[11:13:12] [Server thread/INFO]: TheCheckSaw left the game
-[11:13:13] [Netty Server IO #0/ERROR]: [AdvancedNMotd] Unhandled exception occured in onPacketSending(PacketEvent) for AdvancedNMotd
+[11:31:40] [User Authenticator #1/INFO]: UUID of player WinFlix is 9a143fb1-f2a9-33fb-b588-ae4ace4f92c7
+[11:31:42] [Server thread/INFO]: WinFlix joined the game
+[11:31:42] [Server thread/INFO]: WinFlix[/127.0.0.1:58238] logged in with entity id 1 at ([void]2.118377489926931, 67.0, -1.177389805000552)
+[11:31:42] [Server thread/WARN]: [Essentials] Permissions lag notice with (LuckPermsHandler). Response took 52,973400ms. Summary: Getting group for WinFlix
+[11:31:45] [Server thread/INFO]: [TestPlugin] Nice job bro, you joined in the server xDxD
+[11:31:50] [Async Chat Thread - #0/INFO]: WinFlix -> a
+[11:31:55] [Server thread/INFO]: [TestPlugin] A simple message for testing the plugin xDxD
+[11:31:57] [Server thread/INFO]: WinFlix issued server command: /gamemode creative
+[11:32:05] [Server thread/INFO]: [TestPlugin] A simple brouh for testing the plugin xDxD
+[11:32:15] [Server thread/INFO]: [TestPlugin] A simple brouh for testing the plugin xDxD
+[11:32:25] [Server thread/INFO]: [TestPlugin] A simple brouh for testing the plugin xDxD
+[11:32:35] [Server thread/INFO]: [TestPlugin] Nice job bro, you joined in the server xDxD
+[11:32:45] [Server thread/INFO]: [TestPlugin] Nice job bro, you joined in the server xDxD
+[11:32:50] [Server thread/INFO]: WinFlix issued server command: /mv
+[11:32:53] [Server thread/INFO]: WinFlix issued server command: /mv list
+[11:32:55] [Server thread/INFO]: [TestPlugin] Nice job bro, you joined in the server xDxD
+[11:33:05] [Server thread/INFO]: [TestPlugin] A simple brouh for testing the plugin xDxD
+[11:33:15] [Server thread/INFO]: [TestPlugin] A simple brouh for testing the plugin xDxD
+[11:33:25] [Server thread/INFO]: [TestPlugin] A simple xd for testing the plugin xDxD
+[11:33:35] [Server thread/INFO]: [TestPlugin] A simple message for testing the plugin xDxD
+[11:33:38] [Server thread/INFO]: WinFlix lost connection: Disconnected
+[11:33:38] [Server thread/INFO]: WinFlix left the game
+[11:33:39] [Netty Server IO #0/ERROR]: [AdvancedNMotd] Unhandled exception occured in onPacketSending(PacketEvent) for AdvancedNMotd
 java.lang.NoClassDefFoundError: org/bukkit/craftbukkit/libs/org/apache/commons/io/FileUtils
 	at ru.namerpro.Protocol.Base.Main.imgToStr(Main.java:195) ~[AdvancedNMotd-9.2.0.jar:?]
 	at ru.namerpro.Protocol.Base.Main.onPacketSending(Main.java:143) ~[AdvancedNMotd-9.2.0.jar:?]
@@ -381,21 +402,12 @@ java.lang.NoClassDefFoundError: org/bukkit/craftbukkit/libs/org/apache/commons/i
 	at java.lang.Thread.run(Thread.java:833) ~[?:?]
 Caused by: java.lang.ClassNotFoundException: org.bukkit.craftbukkit.libs.org.apache.commons.io.FileUtils
 	... 79 more
-[11:13:13] [Netty Server IO #0/ERROR]: Parameters: 
-  net.minecraft.network.protocol.status.PacketStatusOutServerInfo@604f34f8[
-    b=net.minecraft.network.protocol.status.ServerPing@644a4ebb
+[11:33:39] [Netty Server IO #0/ERROR]: Parameters: 
+  net.minecraft.network.protocol.status.PacketStatusOutServerInfo@5c842d5d[
+    b=net.minecraft.network.protocol.status.ServerPing@52ed6c8e
   ]
 
-[11:19:47] [User Authenticator #2/INFO]: UUID of player TheCheckSaw is 0d8d2e47-34b5-3d31-8f1a-834944a50e1c
-[11:19:47] [Server thread/INFO]: TheCheckSaw joined the game
-[11:19:47] [Server thread/INFO]: TheCheckSaw[/127.0.0.1:59206] logged in with entity id 289 at ([void]84.0, 27.0, -42.0)
-[11:20:03] [Server thread/INFO]: TheCheckSaw issued server command: /advancednmotd:anm
-[11:20:09] [Server thread/INFO]: TheCheckSaw issued server command: /anm
-[11:20:12] [Server thread/INFO]: TheCheckSaw issued server command: /anm help
-[11:20:18] [Server thread/INFO]: TheCheckSaw issued server command: /anm reload
-[11:20:20] [Server thread/INFO]: TheCheckSaw lost connection: Disconnected
-[11:20:20] [Server thread/INFO]: TheCheckSaw left the game
-[11:20:20] [Netty Server IO #2/ERROR]: [AdvancedNMotd] Unhandled exception occured in onPacketSending(PacketEvent) for AdvancedNMotd
+[11:33:44] [Netty Server IO #1/ERROR]: [AdvancedNMotd] Unhandled exception occured in onPacketSending(PacketEvent) for AdvancedNMotd
 java.lang.NoClassDefFoundError: org/bukkit/craftbukkit/libs/org/apache/commons/io/FileUtils
 	at ru.namerpro.Protocol.Base.Main.imgToStr(Main.java:195) ~[AdvancedNMotd-9.2.0.jar:?]
 	at ru.namerpro.Protocol.Base.Main.onPacketSending(Main.java:143) ~[AdvancedNMotd-9.2.0.jar:?]
@@ -478,317 +490,36 @@ java.lang.NoClassDefFoundError: org/bukkit/craftbukkit/libs/org/apache/commons/i
 	at java.lang.Thread.run(Thread.java:833) ~[?:?]
 Caused by: java.lang.ClassNotFoundException: org.bukkit.craftbukkit.libs.org.apache.commons.io.FileUtils
 	... 79 more
-[11:20:20] [Netty Server IO #2/ERROR]: Parameters: 
-  net.minecraft.network.protocol.status.PacketStatusOutServerInfo@66915b65[
-    b=net.minecraft.network.protocol.status.ServerPing@2f582526
+[11:33:44] [Netty Server IO #1/ERROR]: Parameters: 
+  net.minecraft.network.protocol.status.PacketStatusOutServerInfo@2f3b83bd[
+    b=net.minecraft.network.protocol.status.ServerPing@17ef1f23
   ]
 
-[11:20:22] [Netty Server IO #3/ERROR]: [AdvancedNMotd] Unhandled exception occured in onPacketSending(PacketEvent) for AdvancedNMotd
-java.lang.NoClassDefFoundError: org/bukkit/craftbukkit/libs/org/apache/commons/io/FileUtils
-	at ru.namerpro.Protocol.Base.Main.imgToStr(Main.java:195) ~[AdvancedNMotd-9.2.0.jar:?]
-	at ru.namerpro.Protocol.Base.Main.onPacketSending(Main.java:143) ~[AdvancedNMotd-9.2.0.jar:?]
-	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeSendingListener(SortedPacketListenerList.java:195) ~[ProtocolLib.jar:?]
-	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketSending(SortedPacketListenerList.java:149) ~[ProtocolLib.jar:?]
-	at com.comphenix.protocol.injector.PacketFilterManager.handlePacket(PacketFilterManager.java:535) ~[ProtocolLib.jar:?]
-	at com.comphenix.protocol.injector.PacketFilterManager.invokePacketSending(PacketFilterManager.java:516) ~[ProtocolLib.jar:?]
-	at com.comphenix.protocol.injector.netty.ProtocolInjector.packetQueued(ProtocolInjector.java:346) ~[ProtocolLib.jar:?]
-	at com.comphenix.protocol.injector.netty.ProtocolInjector.onPacketSending(ProtocolInjector.java:308) ~[ProtocolLib.jar:?]
-	at com.comphenix.protocol.injector.netty.ChannelInjector.processSending(ChannelInjector.java:436) ~[ProtocolLib.jar:?]
-	at com.comphenix.protocol.injector.netty.ChannelInjector.encode(ChannelInjector.java:491) ~[ProtocolLib.jar:?]
-	at com.comphenix.protocol.injector.netty.ChannelInjector.access$100(ChannelInjector.java:72) ~[ProtocolLib.jar:?]
-	at com.comphenix.protocol.injector.netty.ChannelInjector$1.encode(ChannelInjector.java:271) ~[ProtocolLib.jar:?]
-	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at com.comphenix.protocol.injector.netty.ChannelInjector$1.write(ChannelInjector.java:277) ~[ProtocolLib.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:717) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:764) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:790) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:758) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:808) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1025) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:306) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at com.comphenix.protocol.injector.netty.ChannelProxy.writeAndFlush(ChannelProxy.java:327) ~[ProtocolLib.jar:?]
-	at net.minecraft.network.Connection.doSendPacket(Connection.java:462) ~[?:?]
-	at net.minecraft.network.Connection.writePacket(Connection.java:424) ~[?:?]
-	at net.minecraft.network.Connection.send(Connection.java:382) ~[?:?]
-	at net.minecraft.network.Connection.send(Connection.java:368) ~[?:?]
-	at com.destroystokyo.paper.network.StandardPaperServerListPingEventImpl.processRequest(StandardPaperServerListPingEventImpl.java:107) ~[paper-1.18.2.jar:?]
-	at net.minecraft.server.network.ServerStatusPacketListenerImpl.handleStatusRequest(ServerStatusPacketListenerImpl.java:156) ~[?:?]
-	at net.minecraft.network.protocol.status.ServerboundStatusRequestPacket.handle(ServerboundStatusRequestPacket.java:19) ~[?:?]
-	at net.minecraft.network.protocol.status.ServerboundStatusRequestPacket.handle(ServerboundStatusRequestPacket.java:8) ~[?:?]
-	at net.minecraft.network.Connection.genericsFtw(Connection.java:315) ~[?:?]
-	at net.minecraft.network.Connection.channelRead0(Connection.java:299) ~[?:?]
-	at net.minecraft.network.Connection.channelRead0(Connection.java:56) ~[?:?]
-	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:99) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:302) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at com.comphenix.protocol.injector.netty.ChannelInjector$2.channelRead(ChannelInjector.java:292) ~[ProtocolLib.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at net.minecraft.server.network.LegacyQueryHandler.channelRead(LegacyQueryHandler.java:120) ~[?:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.handler.flush.FlushConsolidationHandler.channelRead(FlushConsolidationHandler.java:152) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-Caused by: java.lang.ClassNotFoundException: org.bukkit.craftbukkit.libs.org.apache.commons.io.FileUtils
-	... 79 more
-[11:20:22] [Netty Server IO #3/ERROR]: Parameters: 
-  net.minecraft.network.protocol.status.PacketStatusOutServerInfo@27567443[
-    b=net.minecraft.network.protocol.status.ServerPing@3245fff7
-  ]
-
-[11:21:59] [Server thread/INFO]: ANM | Successfully reloaded plugin configuration!
-[11:22:03] [Netty Server IO #0/ERROR]: [AdvancedNMotd] Unhandled exception occured in onPacketSending(PacketEvent) for AdvancedNMotd
-java.lang.NoClassDefFoundError: org/bukkit/craftbukkit/libs/org/apache/commons/io/FileUtils
-	at ru.namerpro.Protocol.Base.Main.imgToStr(Main.java:195) ~[AdvancedNMotd-9.2.0.jar:?]
-	at ru.namerpro.Protocol.Base.Main.onPacketSending(Main.java:143) ~[AdvancedNMotd-9.2.0.jar:?]
-	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeSendingListener(SortedPacketListenerList.java:195) ~[ProtocolLib.jar:?]
-	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketSending(SortedPacketListenerList.java:149) ~[ProtocolLib.jar:?]
-	at com.comphenix.protocol.injector.PacketFilterManager.handlePacket(PacketFilterManager.java:535) ~[ProtocolLib.jar:?]
-	at com.comphenix.protocol.injector.PacketFilterManager.invokePacketSending(PacketFilterManager.java:516) ~[ProtocolLib.jar:?]
-	at com.comphenix.protocol.injector.netty.ProtocolInjector.packetQueued(ProtocolInjector.java:346) ~[ProtocolLib.jar:?]
-	at com.comphenix.protocol.injector.netty.ProtocolInjector.onPacketSending(ProtocolInjector.java:308) ~[ProtocolLib.jar:?]
-	at com.comphenix.protocol.injector.netty.ChannelInjector.processSending(ChannelInjector.java:436) ~[ProtocolLib.jar:?]
-	at com.comphenix.protocol.injector.netty.ChannelInjector.encode(ChannelInjector.java:491) ~[ProtocolLib.jar:?]
-	at com.comphenix.protocol.injector.netty.ChannelInjector.access$100(ChannelInjector.java:72) ~[ProtocolLib.jar:?]
-	at com.comphenix.protocol.injector.netty.ChannelInjector$1.encode(ChannelInjector.java:271) ~[ProtocolLib.jar:?]
-	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at com.comphenix.protocol.injector.netty.ChannelInjector$1.write(ChannelInjector.java:277) ~[ProtocolLib.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:717) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:764) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:790) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:758) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:808) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1025) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:306) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at com.comphenix.protocol.injector.netty.ChannelProxy.writeAndFlush(ChannelProxy.java:327) ~[ProtocolLib.jar:?]
-	at net.minecraft.network.Connection.doSendPacket(Connection.java:462) ~[?:?]
-	at net.minecraft.network.Connection.writePacket(Connection.java:424) ~[?:?]
-	at net.minecraft.network.Connection.send(Connection.java:382) ~[?:?]
-	at net.minecraft.network.Connection.send(Connection.java:368) ~[?:?]
-	at com.destroystokyo.paper.network.StandardPaperServerListPingEventImpl.processRequest(StandardPaperServerListPingEventImpl.java:107) ~[paper-1.18.2.jar:?]
-	at net.minecraft.server.network.ServerStatusPacketListenerImpl.handleStatusRequest(ServerStatusPacketListenerImpl.java:156) ~[?:?]
-	at net.minecraft.network.protocol.status.ServerboundStatusRequestPacket.handle(ServerboundStatusRequestPacket.java:19) ~[?:?]
-	at net.minecraft.network.protocol.status.ServerboundStatusRequestPacket.handle(ServerboundStatusRequestPacket.java:8) ~[?:?]
-	at net.minecraft.network.Connection.genericsFtw(Connection.java:315) ~[?:?]
-	at net.minecraft.network.Connection.channelRead0(Connection.java:299) ~[?:?]
-	at net.minecraft.network.Connection.channelRead0(Connection.java:56) ~[?:?]
-	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:99) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:302) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at com.comphenix.protocol.injector.netty.ChannelInjector$2.channelRead(ChannelInjector.java:292) ~[ProtocolLib.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at net.minecraft.server.network.LegacyQueryHandler.channelRead(LegacyQueryHandler.java:120) ~[?:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.handler.flush.FlushConsolidationHandler.channelRead(FlushConsolidationHandler.java:152) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-Caused by: java.lang.ClassNotFoundException: org.bukkit.craftbukkit.libs.org.apache.commons.io.FileUtils
-	... 79 more
-[11:22:03] [Netty Server IO #0/ERROR]: Parameters: 
-  net.minecraft.network.protocol.status.PacketStatusOutServerInfo@5c0555b8[
-    b=net.minecraft.network.protocol.status.ServerPing@634b4457
-  ]
-
-[11:22:16] [User Authenticator #3/INFO]: UUID of player TheCheckSaw is 0d8d2e47-34b5-3d31-8f1a-834944a50e1c
-[11:22:16] [Server thread/INFO]: TheCheckSaw joined the game
-[11:22:16] [Server thread/INFO]: TheCheckSaw[/127.0.0.1:59241] logged in with entity id 297 at ([void]84.0, 27.0, -42.0)
-[11:22:33] [Server thread/INFO]: TheCheckSaw issued server command: /luckperms group default
-[11:22:54] [Server thread/INFO]: TheCheckSaw issued server command: /luckperms creategroup OWNER
-[11:22:54] [luckperms-command-executor/INFO]: [LP] LOG > (TheCheckSaw) [G] (owner)
-[11:22:54] [luckperms-command-executor/INFO]: [LP] LOG > create
-[11:23:14] [Server thread/INFO]: TheCheckSaw issued server command: /lp user TheCheckSaw parent set owner
-[11:23:14] [luckperms-command-executor/INFO]: [LP] LOG > (TheCheckSaw) [U] (thechecksaw)
-[11:23:14] [luckperms-command-executor/INFO]: [LP] LOG > parent set owner
-[11:23:16] [Server thread/INFO]: TheCheckSaw lost connection: Disconnected
-[11:23:16] [Server thread/INFO]: TheCheckSaw left the game
-[11:23:16] [Netty Server IO #2/ERROR]: [AdvancedNMotd] Unhandled exception occured in onPacketSending(PacketEvent) for AdvancedNMotd
-java.lang.NoClassDefFoundError: org/bukkit/craftbukkit/libs/org/apache/commons/io/FileUtils
-	at ru.namerpro.Protocol.Base.Main.imgToStr(Main.java:195) ~[AdvancedNMotd-9.2.0.jar:?]
-	at ru.namerpro.Protocol.Base.Main.onPacketSending(Main.java:143) ~[AdvancedNMotd-9.2.0.jar:?]
-	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeSendingListener(SortedPacketListenerList.java:195) ~[ProtocolLib.jar:?]
-	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketSending(SortedPacketListenerList.java:149) ~[ProtocolLib.jar:?]
-	at com.comphenix.protocol.injector.PacketFilterManager.handlePacket(PacketFilterManager.java:535) ~[ProtocolLib.jar:?]
-	at com.comphenix.protocol.injector.PacketFilterManager.invokePacketSending(PacketFilterManager.java:516) ~[ProtocolLib.jar:?]
-	at com.comphenix.protocol.injector.netty.ProtocolInjector.packetQueued(ProtocolInjector.java:346) ~[ProtocolLib.jar:?]
-	at com.comphenix.protocol.injector.netty.ProtocolInjector.onPacketSending(ProtocolInjector.java:308) ~[ProtocolLib.jar:?]
-	at com.comphenix.protocol.injector.netty.ChannelInjector.processSending(ChannelInjector.java:436) ~[ProtocolLib.jar:?]
-	at com.comphenix.protocol.injector.netty.ChannelInjector.encode(ChannelInjector.java:491) ~[ProtocolLib.jar:?]
-	at com.comphenix.protocol.injector.netty.ChannelInjector.access$100(ChannelInjector.java:72) ~[ProtocolLib.jar:?]
-	at com.comphenix.protocol.injector.netty.ChannelInjector$1.encode(ChannelInjector.java:271) ~[ProtocolLib.jar:?]
-	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at com.comphenix.protocol.injector.netty.ChannelInjector$1.write(ChannelInjector.java:277) ~[ProtocolLib.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:717) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:764) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:790) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:758) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:808) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1025) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:306) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at com.comphenix.protocol.injector.netty.ChannelProxy.writeAndFlush(ChannelProxy.java:327) ~[ProtocolLib.jar:?]
-	at net.minecraft.network.Connection.doSendPacket(Connection.java:462) ~[?:?]
-	at net.minecraft.network.Connection.writePacket(Connection.java:424) ~[?:?]
-	at net.minecraft.network.Connection.send(Connection.java:382) ~[?:?]
-	at net.minecraft.network.Connection.send(Connection.java:368) ~[?:?]
-	at com.destroystokyo.paper.network.StandardPaperServerListPingEventImpl.processRequest(StandardPaperServerListPingEventImpl.java:107) ~[paper-1.18.2.jar:?]
-	at net.minecraft.server.network.ServerStatusPacketListenerImpl.handleStatusRequest(ServerStatusPacketListenerImpl.java:156) ~[?:?]
-	at net.minecraft.network.protocol.status.ServerboundStatusRequestPacket.handle(ServerboundStatusRequestPacket.java:19) ~[?:?]
-	at net.minecraft.network.protocol.status.ServerboundStatusRequestPacket.handle(ServerboundStatusRequestPacket.java:8) ~[?:?]
-	at net.minecraft.network.Connection.genericsFtw(Connection.java:315) ~[?:?]
-	at net.minecraft.network.Connection.channelRead0(Connection.java:299) ~[?:?]
-	at net.minecraft.network.Connection.channelRead0(Connection.java:56) ~[?:?]
-	at io.netty.channel.SimpleChannelInboundHandler.channelRead(SimpleChannelInboundHandler.java:99) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:302) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at com.comphenix.protocol.injector.netty.ChannelInjector$2.channelRead(ChannelInjector.java:292) ~[ProtocolLib.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:296) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at net.minecraft.server.network.LegacyQueryHandler.channelRead(LegacyQueryHandler.java:120) ~[?:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.handler.flush.FlushConsolidationHandler.channelRead(FlushConsolidationHandler.java:152) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-all-4.1.68.Final.jar:4.1.68.Final]
-	at java.lang.Thread.run(Thread.java:833) ~[?:?]
-Caused by: java.lang.ClassNotFoundException: org.bukkit.craftbukkit.libs.org.apache.commons.io.FileUtils
-	... 79 more
-[11:23:16] [Netty Server IO #2/ERROR]: Parameters: 
-  net.minecraft.network.protocol.status.PacketStatusOutServerInfo@791d38e1[
-    b=net.minecraft.network.protocol.status.ServerPing@16da50bd
-  ]
-
-[11:23:17] [User Authenticator #4/INFO]: UUID of player TheCheckSaw is 0d8d2e47-34b5-3d31-8f1a-834944a50e1c
-[11:23:18] [Server thread/INFO]: TheCheckSaw joined the game
-[11:23:18] [Server thread/INFO]: TheCheckSaw[/127.0.0.1:59254] logged in with entity id 309 at ([void]84.0, 27.0, -42.0)
-[11:24:07] [Server thread/INFO]: Stopping the server
-[11:24:07] [Server thread/INFO]: Stopping server
-[11:24:07] [Server thread/INFO]: [Essentials] Disabling Essentials v2.19.4
-[11:24:07] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
-[11:24:07] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.10+1742f98
-[11:24:07] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[11:24:07] [Server thread/INFO]: [ANM] Disabling AdvancedNMotd v9.2.0
-[11:24:07] [Server thread/INFO]: AdvancedNMotd is disabled!
-[11:24:07] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v4.8.0
-[11:24:07] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.1-b861
-[11:24:07] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.1
-[11:24:07] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
-[11:24:07] [Server thread/INFO]: [TestPlugin] Disabling TestPlugin v1.0.0
-[11:24:07] [Server thread/INFO]: [TestPlugin] has disabled v1.0.0
-[11:24:07] [Server thread/INFO]: [VoidGen] Disabling VoidGen v2.2.1
-[11:24:07] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.25
-[11:24:07] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[11:24:07] [Server thread/INFO]: [LuckPerms] Closing storage...
-[11:24:08] [Server thread/INFO]: [LuckPerms] Goodbye!
-[11:24:08] [Server thread/INFO]: [PluginManager] Disabling PluginManager v2.7.1
-[11:24:08] [Server thread/INFO]: Saving players
-[11:24:08] [Server thread/INFO]: TheCheckSaw lost connection: Server closed
-[11:24:08] [Server thread/INFO]: TheCheckSaw left the game
-[11:24:08] [Server thread/INFO]: Saving worlds
-[11:24:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[void]'/minecraft:overworld
-[11:24:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (void): All chunks are saved
-[11:24:12] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[11:24:12] [Server thread/INFO]: Flushing Chunk IO
-[11:24:12] [Server thread/INFO]: Closing Thread Pool
+[11:33:45] [Server thread/INFO]: [TestPlugin] A simple message for testing the plugin xDxD
+[11:33:49] [Server thread/INFO]: Stopping server
+[11:33:49] [Server thread/INFO]: [Essentials] Disabling Essentials v2.19.4
+[11:33:49] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[11:33:49] [Server thread/INFO]: [TestPlugin] Disabling TestPlugin v1.0.0
+[11:33:49] [Server thread/INFO]: [TestPlugin] has disabled v1.0.0
+[11:33:49] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.10+1742f98
+[11:33:49] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[11:33:49] [Server thread/INFO]: [ANM] Disabling AdvancedNMotd v9.2.0
+[11:33:49] [Server thread/INFO]: AdvancedNMotd is disabled!
+[11:33:49] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v4.8.0
+[11:33:49] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.1-b861
+[11:33:49] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.1
+[11:33:49] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[11:33:49] [Server thread/INFO]: [VoidGen] Disabling VoidGen v2.2.1
+[11:33:49] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.25
+[11:33:49] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[11:33:49] [Server thread/INFO]: [LuckPerms] Closing storage...
+[11:33:50] [Server thread/INFO]: [LuckPerms] Goodbye!
+[11:33:50] [Server thread/INFO]: [PluginManager] Disabling PluginManager v2.7.1
+[11:33:50] [Server thread/INFO]: Saving players
+[11:33:50] [Server thread/INFO]: Saving worlds
+[11:33:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[void]'/minecraft:overworld
+[11:33:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (void): All chunks are saved
+[11:33:52] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[11:33:53] [Server thread/INFO]: Flushing Chunk IO
+[11:33:53] [Server thread/INFO]: Closing Thread Pool
+[11:33:53] [Server thread/INFO]: Closing Server

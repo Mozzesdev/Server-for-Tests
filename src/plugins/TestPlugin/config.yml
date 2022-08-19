@@ -12,9 +12,9 @@ Config:
     enchantments:
     - FIRE_ASPECT;1
   Spawn:
-    x: 84.0
-    y: 27.0
-    z: -42.0
-    yaw: 1.1
-    pitch: -20.8
+    x: 2.118377489926931
+    y: 67.0
+    z: -1.177389805000552
+    yaw: 16.383667
+    pitch: 54.514854
     world: void
